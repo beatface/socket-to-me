@@ -1,0 +1,47 @@
+{
+  "name": "socket-to-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatface/socket-to-me.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true,
+      "es6": true,
+      "browser": true
+    },
+    "extends": "eslint:recommended",
+    "globals": {
+      "res": true,
+      "$": true,
+      "io": true,
+      "index": true
+    },
+    "rules": {
+      "no-console": 0,
+      "comma-dangle": 0
+    }
+  },
+  "author": "“Emma <“emma.beaton@gmail.com”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beatface/socket-to-me/issues"
+  },
+  "homepage": "https://github.com/beatface/socket-to-me#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "socket.io": "^1.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.9.1"
+  }
+}

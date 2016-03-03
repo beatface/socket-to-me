@@ -1,0 +1,21 @@
+{
+  "name": "socket-to-me",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "“Emma <“emma.beaton@gmail.com”>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/beatface/socket-to-me",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^2.2.1"
+  }
+}
